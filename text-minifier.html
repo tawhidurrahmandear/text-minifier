@@ -1,0 +1,29 @@
+<link rel="stylesheet" type="text/css" href="text-minifier.css">
+<script src="text-minifier.js"></script>
+
+<!-- Text Minifier -->
+<!-- developed by Tawhidur Rahman Dear, https://www.tawhidurrahmandear.com -->
+<!-- Live Preview available at https://www.devilhunter.net/p/minify-text.html -->
+
+
+<div align="center">
+<p><span style="font-family: Ubuntu;">Input Text </span></p>
+<br>
+<p><textarea class="text-minifier_textarea" id="input" spellcheck="false" rows="3" cols="30"></textarea></p>
+<br>
+<p align="left"><label><input type="radio" id="chbSpace" name="textMinifyOption" value="space" checked /> Remove Space</label></p>
+<p align="left"><label><input type="radio" id="chbSpace0" name="textMinifyOption" value="extraSpaces" /> Remove Only Extra White Spaces</label></p>
+<p align="left"><label><input type="radio" id="chbTab" name="textMinifyOption" value="tab" /> Remove Tab</label></p>
+<p align="left"><label><input type="radio" id="chbLine" name="textMinifyOption" value="line" /> Remove Line</label></p>
+<br>
+<p><input class="text-minifier_button" onclick="minifyText();" title="Minify Text" type="button" value="Action" /></p>
+<br>
+<p><span style="font-family: Ubuntu;">Output Text </span></p>
+<br>
+<p><textarea class="text-minifier_textarea" id="output" spellcheck="false" rows="3" cols="30"></textarea></p>
+<p id="feedback" style="color: green; font-family: Ubuntu;"></p>
+<p>
+<input class="text-minifier_button" onclick="reset();" type="button" value="Start Over" />
+<input class="text-minifier_button" onclick="copy();" type="button" value="Copy Result" />
+</p>
+</div>
