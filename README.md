@@ -1,4 +1,4 @@
-# Text Minifier <br>
+# [Text Minifier](https://www.devilhunter.net/p/minify-text.html) <br>
 HTML + JavaScript + CSS <br>
 * developed by Tawhidur Rahman Dear, https://www.tawhidurrahmandear.com <br>
 * Live Preview available at https://www.devilhunter.net/p/minify-text.html <br>
